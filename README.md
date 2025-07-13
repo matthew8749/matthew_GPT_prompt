@@ -13,14 +13,18 @@ This repository is used to organize and record various "custom GPT" settings I h
 
 - `prompts/`: Configuration files for various specialized GPTs
 - `templates/`: Copyable Prompt setting formats
+
 <\br>
+
 ```text
 matthew_GPT_prompt/
-├── README.md                      # 總覽說明
-├── prompts/
-│   ├── english_tutor.md           # 英語口說家教 GPT 設定
-│   ├── verilog_debug_bot.md      # Verilog 除錯與解釋助理
-│   └── research_summary_bot.md   # 論文摘要整理機器人
+├── README.md                         # 總覽說明
+├── ChatGPT/
+│   └── prompts
+│       ├── english_tutor.md          # 英語口說家教 GPT 設定
+│       ├── verilog_debug_bot.md      # Verilog 除錯與解釋助理
+│       └── research_summary_bot.md   # 論文摘要整理機器人
+├── Claude
 └── templates/
-    └── prompt_template.md        # 通用 prompt 設定格式
+    └── prompt_template.md            # 通用 prompt 設定格式
 ```
